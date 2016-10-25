@@ -13,11 +13,11 @@ repositories {
 
 ext {
     bintrayRepo = 'android'
-    bintrayName = 'utils'
+    bintrayName = 'android-utils'
 
-    publishedGroupId = 'pasqualytics.android.tools'
+    publishedGroupId = 'com.github.pasqualinigustavo'
     libraryName = 'androidutils'
-    artifact = 'androidutils'
+    artifact = 'android-utils'
 
     libraryDescription = 'Util tools for Android'
 

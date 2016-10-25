@@ -23,25 +23,25 @@ Singleton to create, read and write on SharedPreferences.
 ##### How to use:
 
 <code> //instantiate
-SharedPreferencesUtils.init(getApplicationContext());
+SharedPreferencesUtils.init(getApplicationContext());<p>
 //or
-SharedPreferencesUtils.init(getApplicationContext(),"NAME_OF_SHARED_PREFERENCES");
+SharedPreferencesUtils.init(getApplicationContext(),"NAME_OF_SHARED_PREFERENCES");<p>
 //write a value (string example)
-SharedPreferencesUtils.getInstance().save("TAG", value);
+SharedPreferencesUtils.getInstance().save("TAG", value);<p>
 //read value (string example)
-SharedPreferencesUtils.getInstance().getValue("TAG",String.class)
+SharedPreferencesUtils.getInstance().getValue("TAG",String.class)</code>
 
 #### StringUtils
 
 Utils for strings.
 ##### How to use:
-<code> if(StringUtils.isNullOrEmpty("string")) { }
+<code> if(StringUtils.isNullOrEmpty("string")) { }</code>
 
 #### SnackBarUtils
 
 Utils for SnackBar(Android Materials).
 ##### How to use:
-<code>SnackBarUtils.presentSnackFromView(view_container, "No internet connection");
+<code>SnackBarUtils.presentSnackFromView(view_container, "No internet connection");</code>
 
 #### LoadingUtils
 
@@ -50,15 +50,14 @@ Utils for show/hide loading view.
 <code>//call
 LoadingUtils.show(context);
 //in xml 
-include layout="@layout/view_loading"
-</code>
+include layout="@layout/view_loading"</code>
 
 ----------
 
 Adding Dependency - Gradle
 -------------------
 
-<code> compile 'com.'
+<code> compile 'com.'</code>
 
 ----------
 
