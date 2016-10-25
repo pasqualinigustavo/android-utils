@@ -24,11 +24,11 @@ Singleton to create, read and write on SharedPreferences.
 
 <code> //instantiate
 SharedPreferencesUtils.init(getApplicationContext());<p>
-//or
+<p>//or
 SharedPreferencesUtils.init(getApplicationContext(),"NAME_OF_SHARED_PREFERENCES");<p>
-//write a value (string example)
+<p>//write a value (string example)
 SharedPreferencesUtils.getInstance().save("TAG", value);<p>
-//read value (string example)
+<p>//read value (string example)
 SharedPreferencesUtils.getInstance().getValue("TAG",String.class)</code>
 
 #### StringUtils
@@ -57,7 +57,7 @@ include layout="@layout/view_loading"</code>
 Adding Dependency - Gradle
 -------------------
 
-<code> compile 'com.'</code>
+<code> compile 'com.github.pasqualinigustavo:androidutils:0.0.1'</code>
 
 ----------
 
