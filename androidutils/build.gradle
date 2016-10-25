@@ -13,18 +13,18 @@ repositories {
 
 ext {
     bintrayRepo = 'android'
-    bintrayName = 'android-utils'
+    bintrayName = 'androidutils'
 
     publishedGroupId = 'com.github.pasqualinigustavo'
-    libraryName = 'android-utils'
-    artifact = 'android-utils'
+    libraryName = 'androidutils'
+    artifact = 'androidutils'
 
     libraryDescription = 'Util tools for Android'
 
     siteUrl = 'https://github.com/pasqualinigustavo/android-utils'
     gitUrl = 'https://github.com/pasqualinigustavo/android-utils'
 
-    libraryVersion = '0.0.3'
+    libraryVersion = '0.0.4'
 
     developerId = 'pasqualinigustavo'
     developerName = 'Gustavo Pasqualini'

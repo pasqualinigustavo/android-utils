@@ -57,7 +57,7 @@ include layout="@layout/view_loading"</code>
 Adding Dependency - Gradle
 -------------------
 
-<code> compile 'com.github.pasqualinigustavo:androidutils:0.0.1'</code>
+<code> compile 'com.github.pasqualinigustavo:androidutils:0.0.4'</code>
 
 ----------
 
