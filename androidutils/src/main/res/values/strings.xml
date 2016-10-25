@@ -1,7 +1,4 @@
 <resources>
-    <string name="app_name">android-utils</string>
-
-
     <!--Messages-->
     <string name="message_loading">Loading...</string>
 </resources>

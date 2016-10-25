@@ -1,1 +1,1 @@
-include ':androidutils'
+include ':app', ':androidutils'

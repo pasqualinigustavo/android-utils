@@ -16,7 +16,7 @@ ext {
     bintrayName = 'android-utils'
 
     publishedGroupId = 'com.github.pasqualinigustavo'
-    libraryName = 'androidutils'
+    libraryName = 'android-utils'
     artifact = 'android-utils'
 
     libraryDescription = 'Util tools for Android'
@@ -24,7 +24,7 @@ ext {
     siteUrl = 'https://github.com/pasqualinigustavo/android-utils'
     gitUrl = 'https://github.com/pasqualinigustavo/android-utils'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = '0.0.3'
 
     developerId = 'pasqualinigustavo'
     developerName = 'Gustavo Pasqualini'
@@ -42,7 +42,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 14
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
