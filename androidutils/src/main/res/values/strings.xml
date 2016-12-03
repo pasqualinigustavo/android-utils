@@ -1,4 +1,16 @@
 <resources>
     <!--Messages-->
     <string name="message_loading">Loading...</string>
+
+    <!--COMMOM Messages-->
+    <string name="label_attention">Atenção</string>
+    <string name="label_yes">Sim</string>
+    <string name="label_no">Não</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_confirm">Confirmar</string>
+    <string name="label_ok">OK</string>
+    <string name="label_erro">Erro</string>
+    <string name="label_fechar">Fechar</string>
+    <string name="label_warning">Aviso</string>
+    <string name="label_information">Informação</string>
 </resources>
